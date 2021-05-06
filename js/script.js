@@ -1,58 +1,22 @@
-const adamsany = +prompt('Nache talyp bar', '');
+const mashgala = +prompt('Mashgalada nache adam bar?', '');
 
-const topar = {
-    talypsan: adamsany,
-    okde: {},
-    yalta: {},
-}
+const rayatlar = {
+    mashgalasany: mashgala, 
+    ejesi: {},
+    kakasy: {},
+    dogany: {},
+    jigisi: {}
+};
 
-const a = prompt('Okde talybyn ady', ''),
-      b = prompt('Okde talybyn yetishigi', ''),
-      c = prompt('Yaltanyn ady', ''),
-      d = prompt('Yaltanyn yetishigi', '');
-
-topar.okde[a] = b,
-topar.yalta[c] = d;
-
-console.log(topar)
+const a = prompt("ejesinin ady", ''),
+      b = prompt("kakasynyn ady", ''),
+      c = prompt("doganyn ady", ''),
+      d = prompt("jigisinin ady", '');
 
 
+rayatlar.ejesi = a,
+rayatlar.kakasy = b,
+rayatlar.dogany = c,
+rayatlar.jigisi = d,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const numberofFilms = +prompt('Nache film gorduniz', '');
-
-// const personalMovieDB = {
-//     count: numberofFilms,
-//     movies: {},
-//     actors: {},
-//     genres: {},
-//     privat: false
-// };
-
-// const a = prompt('In sonky goren kinon', ''),
-//       b = prompt('Nahili haladynmy shony', ''),
-//       c = prompt('In sonky goren kinon', ''),
-//       d = prompt('Nahili haladynmy shony', '');
-
-
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
-
-// console.log(personalMovieDB);
+console.log(rayatlar);
