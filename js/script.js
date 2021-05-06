@@ -1,15 +1,20 @@
-"use strict";
+const numberofFilms = +prompt('Nache film gorduniz', '');
 
-console.log('arr' + "- object");
-console.log(4 + + "5");
+const personalMovieDB = {
+    count: numberofFilms,
+    movies: {},
+    actors: {},
+    genres: {},
+    privat: false
+};
 
-let incr = 10,
-    decr = 10;
+const a = prompt('In sonky goren kinon', ''),
+      b = prompt('Nahili haladynmy shony', ''),
+      c = prompt('In sonky goren kinon', ''),
+      d = prompt('Nahili haladynmy shony', '');
 
-// incr++;
-// decr--;
 
-console.log(++incr);
-console.log(--decr);
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-console.log(10%3);
+console.log(personalMovieDB);
