@@ -1,17 +1,15 @@
-"use sctrict";
+"use strict";
 
-// alert('Hello')
+console.log('arr' + "- object");
+console.log(4 + + "5");
 
-// const result = confirm("Siz ylalashyanyzmy?");
-// console.log(result);
+let incr = 10,
+    decr = 10;
 
-// const answer = +prompt("Sizin yashynyz nache?", "16");
-// console.log(answer + 5);
+// incr++;
+// decr--;
 
-const answers = [];
+console.log(++incr);
+console.log(--decr);
 
-answers[0] = prompt("Adynyz name?");
-answers[1] = prompt("Familyanyz name?");
-answers[2] = prompt("Yashynyz nache?");
-
-document.write(answers);
+console.log(10%2);
