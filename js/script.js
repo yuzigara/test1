@@ -12,4 +12,4 @@ let incr = 10,
 console.log(++incr);
 console.log(--decr);
 
-console.log(10%2);
+console.log(10%3);
