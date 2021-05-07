@@ -24,6 +24,7 @@ for (i = 0; i < numberOfFilms; i++) {
 
     if (a != null && b != null && a != '' && b != '' && a.length < 50){
         personalMovieDB.movies[a] = b;
+        personalMovieDB.count = numberOfFilms;
         console.log('done');
         console.log(personalMovieDB);
     }   else{
@@ -31,3 +32,14 @@ for (i = 0; i < numberOfFilms; i++) {
         i--;
     }
 }
+    if (personalMovieDB.count < 10) {
+        console.log('Your score is very less');
+    } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+        console.log('true score');
+    } else if (personalMovieDB.count >= 30) {
+        console.log('Your are smart');
+    }
+      else {
+          console.log("error");
+      }
+    console.log(personalMovieDB);
