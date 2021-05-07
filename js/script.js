@@ -13,6 +13,8 @@ const b = prompt('How much score you give?', '');
 const c = prompt('What film did you watch?', '');
 const d = prompt('How much score you give?', '');
 
-personalMovieDB.count = numberOfFilms,
-personalMovieDB.movies[a] = b,
+personalMovieDB.count = numberOfFilms;
+personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
